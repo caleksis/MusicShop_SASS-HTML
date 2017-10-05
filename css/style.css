@@ -15,13 +15,10 @@ body {
   margin: 0 auto; }
 
 header {
+  width: 100%;
+  height: 7em;
   background: #D80E0E;
   border-radius: 0  0 15px 15px; }
-  header:before, header:after {
-    content: "";
-    display: table; }
-  header:after {
-    clear: both; }
   header h1 {
     float: left;
     color: #000;
@@ -40,7 +37,7 @@ header {
         border-radius: 0 0 20px 20px;
         padding: 4em .2em 0 .2em;
         margin-right: 1em; }
-        header nav ul li a img {
+        header nav ul li img {
           width: 2em; }
 
 p {
