@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white; }
+
+body {
+  background-image: url("../images/bg.jpg");
+  background-size: cover; }
+
+.container {
+  width: 75%;
+  margin: 0 auto; }
+
+header {
+  background: #D80E0E;
+  border-radius: 0  0 15px 15px; }
+  header:before, header:after {
+    content: "";
+    display: table; }
+  header:after {
+    clear: both; }
+  header h1 {
+    float: left;
+    color: #000;
+    font-family: "Lobster", sans-serif;
+    font-size: 4.5em;
+    margin: auto .5em; }
+  header nav {
+    float: right;
+    margin-right: 1em; }
+    header nav ul {
+      list-style: none;
+      margin-bottom: .5em; }
+      header nav ul li {
+        display: inline-block;
+        background: #000;
+        border-radius: 0 0 20px 20px;
+        padding: 4em .2em 0 .2em;
+        margin-right: 1em; }
+        header nav ul li a img {
+          width: 2em; }
+
+p {
+  text-align: justify;
+  font-size: .9em;
+  padding: .5em 0; }
+
+main {
+  background-color: #000;
+  margin: 1em auto;
+  padding: 1.5em;
+  border-radius: 15px; }
+  main:before, main:after {
+    content: "";
+    display: table; }
+  main:after {
+    clear: both; }
+  main img {
+    width: 30%;
+    float: left; }
+  main .welcome {
+    width: 65%;
+    float: right; }
+    main .welcome h2 {
+      color: #000;
+      background: #fff;
+      font-family: "Lobster", sans-serif;
+      font-size: 2em;
+      float: right;
+      padding: 0 .5em;
+      margin-bottom: .5em; }
+    main .welcome p {
+      float: right; }
+  main .offer {
+    float: left;
+    width: 100%; }
+    main .offer .column {
+      display: inline-block;
+      width: 33%;
+      padding: 0 .5em;
+      margin-top: 1.5em;
+      border-right: 1px solid #fff; }
+      main .offer .column:last-child {
+        border: none; }
+      main .offer .column h3 {
+        background: #D80E0E;
+        font-family: "Lobster", sans-serif;
+        padding: .2em; }
+      main .offer .column button {
+        border: none;
+        background: #fff;
+        color: #000;
+        padding: .2em .5em;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer; }
+
+footer {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 15px 5px; }
+  footer a {
+    display: inline-block;
+    padding-right: .4em; }
+
+/*# sourceMappingURL=style.css.map */
